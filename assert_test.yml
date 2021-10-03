@@ -1,0 +1,11 @@
+---
+  - name: test assert module
+    hosts: localhost
+    tasks:
+      - name: test asscert
+        assert:
+          that:
+            - "inventory_hostname is defined"
+            - "project_team is defined"
+            - "project_handle is defined"
+          msg: not all of project_team, project_handle and inventory_hostname are defined

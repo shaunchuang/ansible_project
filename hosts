@@ -1,0 +1,11 @@
+[server1]
+#172.16.156.19 ansible_ssh_pass="daniel"
+#172.16.156.17 ansible_ssh_pass="9hmL4KDz)?@d"
+
+172.16.156.22 ansible_ssh_pass="bM>Wp+6X'WGE"
+172.16.156.21 ansible_ssh_pass="L05Es3l-ag2L"
+172.16.156.18 ansible_ssh_pass="}UH9vL0TdN'}"
+172.16.156.20 ansible_ssh_pass="u4,91?c$xiX}"
+[server1:vars]
+ansible_connection=ssh
+ansible_ssh_user=root
